@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>Consulta Cep</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center">Busca cep</h1>
+        <fieldset>
+            <legend>Endereço:</legend>
+            <form>
+                <div class="row">
+                    <div class="col-md-3 col-xs-12">
+                        <div class="form-group">
+                            <label for="cep">Cep</label>
+                            <input type="tel" class="form-control" id="cep" aria-describedby="cep" placeholder="12345-678">
+                            <small id="cepHelp" class="form-text text-muted">Digite um cep válido.</small>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-xs-12">
+                        <div class="form-group">
+                            <label for="logradouro">Logradouro</label>
+                            <input type="text" class="form-control" id="logradouro">
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-xs-12">
+                        <div class="form-group">
+                            <label for="numero">Número</label>
+                            <input type="tel" class="form-control" id="numero">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 col-xs-12">
+                        <div class="form-group">
+                            <label for="complemento">Complemento</label>
+                            <input type="text" class="form-control" id="complemento">
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-xs-12">
+                        <div class="form-group">
+                            <label for="Referencia">Referência</label>
+                            <input type="text" class="form-control" id="Referencia">
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-xs-12">
+                        <div class="form-group">
+                            <label for="bairro">Bairro</label>
+                            <input type="text" class="form-control" id="bairro">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 col-xs-12">
+                        <div class="form-group">
+                            <label for="cidade">Cidade</label>
+                            <input type="text" class="form-control" id="cidade">
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-xs-12">
+                        <div class="form-group">
+                            <label for="estado">Estado</label>
+                            <input type="text" class="form-control" id="estado">
+                        </div>
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+        </fieldset>
+    </div>
+</body>
+</html>
